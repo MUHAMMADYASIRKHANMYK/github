@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            background-image: url('image/back.avif')
+        }
+
+        .heading1 {
+            border: 3px solid blue;
+            border-radius: 7px;
+            background-color: lightgray;
+            border-style: groove;
+        }
+
+        .formbody {
+            padding: 30px;
+            margin: 50px;
+            border: 3px solid blue;
+            background-color: lightgray;
+            border-style: groove;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading1">
+        <h1 style="text-align: center; color:blue ">STUDENT REGISTRATION FORM</h1>
+    </div>
+    <div class="formbody">
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label for="fname">First Name: &nbsp;</label>
+                        <input type="text" id="fname" name="fname" placeholder="Enter your First Name" maxlength="10">
+                        Enter Max 10 characters.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lname">Last Name: &nbsp;</label>
+                        <input type="text" id="lname" name="lname" placeholder="Enter your Last Name" maxlength="10">
+                        Enter Max 10 characters.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="date">Date Of Submission:</label>
+                        <input type="date" id="date" name="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email"> Enter Email: &nbsp;</label>
+                        <input type="email" id="email" name="email" placeholder="abc@gmail.com" maxlength="20">
+                        Enter Max 20 characters.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="num">Contact Number: </label>
+                        <input type="number" id="num" name="num" maxlength="11" placeholder="03XX-XXXXXXX">
+                        Enter Max 11 Numbers.
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender1"> Male</label>
+                        <input type="radio" id="gender1" name="gender">
+                        <label for="gender2"> Female</label>
+                        <input type="radio" id="gender2" name="gender">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="city">City: &nbsp;</label>
+                        <input type="text" id="city" name="city" placeholder="Enter your City" maxlength="10">
+                        Enter Max 10 characters.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="country" id="country">
+                            <option value="" disabled>Select Your City</option>
+                            <option value="khi">Karachi</option>
+                            <option value="mul">Multan</option>
+                            <option value="isl">Islamabad</option>
+                        </select>
+                    </td>
+                    <tr>
+                        <td>
+                            <input type="Submit" value="Submit">
+                            <input type="Reset" value="Reset">
+                        </td>
+                    </tr>
+                </tr>
+                
+                 
+    </table>
+    </form>
+ </div>
+</body>
+</html>

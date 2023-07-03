@@ -1,0 +1,19 @@
+h1{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(200,240,100);
+
+
+}
+body{
+
+    background-color: grey;
+}
+#odd{
+    
+    background-color: lightgreen;
+}
+#even{
+    
+    background-color: green;
+}
